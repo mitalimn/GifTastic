@@ -88,7 +88,7 @@ function pauseGif(){
 
 	// This function handles events where one button is clicked
 	$('#addAnimal').on('click', function(){
-console.log("inside addanimal click")
+
 		// This line of code will grab the input from the textbox
 		var animalInput = $('#animal-input').val().trim();
 
@@ -96,9 +96,9 @@ console.log("inside addanimal click")
 		if(animalInput!=""){
 		animals.push(animalInput);
 		
-		// Our array then runs which handles the processing of our movie array
+		// Our array then runs which handles the processing of our animal array
 		renderButtons();
-}
+		}
 		// We have this line so that users can hit "enter" instead of clicking on ht button and it won't move to the next page
 		return false;
 	})
