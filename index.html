@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+	<title>GifTastics Giphy API</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+	
+	<!--My Style sheets-->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	
+	<!--Google Fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!--Header-->
+	<div class = "container col-xs-12">
+	   	<div class = "jumbotron text-center">
+	      <h1>Welcome to Animal Giphy </h1>
+	      <p>Find your favorite animal gifs</p>
+		</div>
+	</div>
+	
+
+		<!--Panel for - Add an animal// Form -->
+	<div class="row">
+	<div class="col-md-4 buttonForm">
+		<div class = "panel panel-default text-center">
+		   <div class = "panel-heading">
+		      <h3 class = "panel-title">
+		         Enetr animal name	
+		      </h3>
+		   </div>
+		   
+		   <div class = "panel-body">
+		   		<form class = "form-inline" role = "form" id="animal-form">
+		   
+			   		<div class = "form-group">
+			     	 <label for="animal-input">Add an animal</label>
+			     	 <input type = "text" class = "form-control" id = "animal-input" placeholder = "Enter Animal Name">
+			  		</div>
+			   
+			   		<button type = "submit" class = "btn btn-default" id="addAnimal" value="Add a animal">Add</button>
+				</form>
+		   </div>
+		</div>
+	</div>
+
+
+<!--Buttons Populated here -->
+
+	<div class="col-md-7">
+		<div class = "panel panel-default">
+		   <div class = "panel-heading text-center">
+		      <h3 class = "panel-title">
+		         Click here for Gifs 
+		      </h3>
+		   </div>
+		   
+		   <div class = "panel-body">
+		   		<div id="buttonsView">
+		   			
+		   		</div>
+		   </div>
+		</div>
+	</div>
+	</div>
+ 
+  <!-- Animals will Get Dumped Dere -->
+
+  <div class="row">
+		<div class="col-md-9" id="animalArea">
+		<div class = "panel panel-default">
+		   <div class = "panel-heading text-center">
+		      <h3 class = "panel-title">
+		        Play around with gifys
+		      </h3>
+		   </div>
+		   
+		   <div class = "panel-body">
+		   
+		   <div id="animalsView">
+		   				
+		   </div>
+		   </div>
+		</div>
+	</div>
+	</div>
+
+
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type="text/javascript" src="./assets/javascript/app.js">
+</script>
+
+
+</body>
+</html>
