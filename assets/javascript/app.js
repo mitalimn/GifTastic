@@ -19,13 +19,14 @@ var state;
 
 			// Retrieves the Rating Data
 			var rating = results[i].rating;
+			console.log("Rating : "+ rating);
 
-			// Creates an element to have the rating displayed
+		// Creates an element to have the rating displayed
 			var pOne = $('<p class= "rating">').text( "Rating: " + rating);
 
 			// Displays the rrating
 			animalDiv.append(pOne);
-
+			
 			// Creates an element to hold the image 
 			var img = $('<img id="giffed">');
 
