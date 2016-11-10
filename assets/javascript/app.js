@@ -1,4 +1,4 @@
-var animals = ['Rabbit', 'Dog'];
+var animals = ['Rabbit','Elephant', 'Dog'];
 var state;
 	// ========================================================
 
@@ -117,4 +117,3 @@ function pauseGif(){
 	// This calls the renderButtons() function
 	renderButtons();
 	$(document).on("click", '#giffed', pauseGif);
-

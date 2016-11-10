@@ -2,17 +2,27 @@
 	margin-top: 10px;
 	font-size: 24px;
 	font-style: italic;
-	background: "teal";
-
 }
 .buttonForm,.col-md-7{
 	margin: 5px;
 	margin-left: 30px;
 }
-.ratingP{
-	background: "teal";
+.rating{
+	background: teal;
+	padding: 10px;	
 }
 
+.container{
+	margin-top: 20px;
+}
+body{
+	background-image: url('../images/back.jpg');
+}
+
+.main-content{
+	
+	width: 100%;
+}
 .animalBtn{
 	margin: 5px;
 }
